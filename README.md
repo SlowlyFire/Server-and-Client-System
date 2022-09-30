@@ -24,7 +24,7 @@ While Pi means:
 We can see that the client wants to connect to a server with PID 1234, and wish to calculate 70-30.  
 The server should return 40 as a result, back to the client.  
 
-- Once the server gets a signal from a client, the server creates a child proccess, so its job is to manage the client request, so the father proccess can wait for another signals of another clients.
+- Once the server gets a signal from a client, **the server creates a child proccess**, so its job is to manage the client request, so the father proccess can wait for another signals of another clients.
 - The client is waiting for a result from the server, but the client is not patient, so **if client is waiting over 30 sec to a result**, then we print "Client closed because no response was received from the server for 30 seconds". 
 - **Otherwise**, the client gets the result from the server in time, and **print to the screen the result.**   Then the client closes all his files.  
 - We should also notice that **if the server doesn't get any request from clients for over 60 sec**, the server stops running and prints: "The server was closed because no service rquest was received for the last 60 seconds".  
