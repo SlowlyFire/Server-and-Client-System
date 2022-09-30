@@ -1,9 +1,9 @@
 # Server-and-Client-System
 **This project is basically an implementation of Server and Client System, based on signals communication and transferring data through files**.  
  
-**in this project, we implement a server, which represents a simple calculator**, that supports 4 basic operations: add, substraction, multiply and division.  
-The server gets from the client 2 numbers and one of the requested operations.  
-The server calculates, and returns to the client the result.  
+**in this project, we implement a server, which represents a simple calculator, that supports 4 basic operations: add, substraction, multiply and division.  
+The server gets from the client 2 numbers, and one of the requested operations.  
+The server calculates, and returns to the client the result.**    
 
 ## How Does it Works?  
 
