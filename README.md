@@ -30,6 +30,6 @@ The server should return 40 as a result, back to the client.
 - We should also notice that **if the server doesn't get any request from clients for over 60 sec**, the server stops running and prints: "The server was closed because no service request was received for the last 60 seconds".  
 
 **Example of compiling and running**:  
-![image](https://user-images.githubusercontent.com/83518959/193290463-e0c7bdb8-320e-4843-8ce0-9124ee971862.png)  
+<img src="https://user-images.githubusercontent.com/83518959/193290463-e0c7bdb8-320e-4843-8ce0-9124ee971862.png" width="600" height="450" />   
 ![image](https://user-images.githubusercontent.com/83518959/193290718-eb0a3d4b-78a6-4ee0-baba-ee8b5b290828.png)  
 
